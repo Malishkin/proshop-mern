@@ -1,0 +1,21 @@
+{
+  "name": "proshop-mern-my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index",
+    "server": "nodemon backend/index",
+    "client": "npm start --prefix frontend"
+  },
+  "keywords": [],
+  "author": "Sveta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
